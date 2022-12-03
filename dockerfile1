@@ -1,0 +1,8 @@
+FROM ubuntu
+MAINTAINER Shalvi<shalvi.vijay@gmail.com>
+
+RUN echo "this is my run 1"
+RUN echo "this is my run 2"
+CMD echo "this is my first cmd"
+CMD echo "this is my second cmd"
+
